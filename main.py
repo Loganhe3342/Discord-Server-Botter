@@ -42,7 +42,7 @@ def main():
             lock.release()
         main()
     elif choice == "2":
-        invite = input("Invite Code:  ")
+        invite = input("Invite Code: J9Eh9cS2 ")
         for user in open("tokens.txt","r").read().splitlines():
             try:
                 lock.acquire()
